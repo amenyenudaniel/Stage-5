@@ -4,8 +4,8 @@ import { featureData } from "../../utils/data";
 const Features = () => {
   return (
     <section className="feature__section">
-      <h1>Features</h1>
-      <p>Key Highlights of Our Extension</p>
+      <h1 className="title1">Features</h1>
+      <p className="title2">Key Highlights of Our Extension</p>
 
       <div className="feature__main">
         <div className="feature__content">
