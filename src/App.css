@@ -20,3 +20,12 @@ a {
   color: unset;
   text-decoration: none;
 }
+
+.link__tag {
+  color: unset;
+  text-decoration: none;
+}
+
+body {
+  background-color: #ffd7de;
+}

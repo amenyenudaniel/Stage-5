@@ -1,0 +1,60 @@
+.Nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 1rem 10%;
+  background-color: white;
+  margin-bottom: 2px;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav__logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.nav__logo h3 {
+  color: var(--color-blue);
+  font-family: var(--font-sora);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 39px;
+}
+
+.nav__links a {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.getStarted {
+  color: var(--color-blue);
+  text-align: center;
+  font-family: var(--font-sora);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media screen and (max-width: 1600px) {
+  .Nav {
+    padding: 1rem 2rem;
+  }
+}
