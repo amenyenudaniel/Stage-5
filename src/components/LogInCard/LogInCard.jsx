@@ -2,7 +2,7 @@ import "./LogInCard.css";
 import { fb, google } from "../../assets";
 const LogInCard = () => {
   return (
-    <>
+    <div className="login__container">
       <section className="logIn__section">
         <h1>Log in or Sign Up</h1>
         <p>
@@ -14,9 +14,11 @@ const LogInCard = () => {
           <p>Continue with Google</p>
         </div>
 
-        <div className="social fb">
-          <img src={fb} alt="facebook__logo" />
-          <p>Continue with Facebook</p>
+        <div className="social ">
+          <div className="fb">
+            <img src={fb} alt="facebook__logo" />
+            <p>Continue with Facebook</p>
+          </div>
         </div>
 
         <div className="or__line">
@@ -41,7 +43,7 @@ const LogInCard = () => {
         </div>
         <button>Sign Up</button>
       </form>
-    </>
+    </div>
   );
 };
 
