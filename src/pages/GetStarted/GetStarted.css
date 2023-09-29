@@ -8,10 +8,22 @@
 .getStarted__section {
   padding: 5rem 10%;
   background-color: white;
-  height: 100vh;
+  height: 100%;
 }
 @media screen and (max-width: 1600px) {
   .hero__section {
     padding: 8rem 2rem;
+  }
+}
+
+@media screen and (max-height: 1010px) {
+  .getStarted__section {
+    height: 95vh;
+  }
+}
+
+@media screen and (max-height: 900px) {
+  .getStarted__section {
+    height: 100%;
   }
 }
