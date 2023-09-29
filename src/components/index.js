@@ -5,5 +5,15 @@ import HowItsWorks from "./HowItsWorks/HowItsWorks";
 import Modal from "./Modal/Modal";
 import Navbar from "./Navbar/Navbar";
 import VideoCard from "./VideoCard/VideoCard";
+import LogInCard from "./LogInCard/LogInCard";
 
-export { Features, Footer, Hero, HowItsWorks, Modal, Navbar, VideoCard };
+export {
+  Features,
+  Footer,
+  Hero,
+  HowItsWorks,
+  Modal,
+  Navbar,
+  VideoCard,
+  LogInCard,
+};

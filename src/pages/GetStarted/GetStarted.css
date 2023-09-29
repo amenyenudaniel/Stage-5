@@ -1,0 +1,17 @@
+.empty {
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid rgb(189, 182, 182);
+}
+
+.getStarted__section {
+  padding: 5rem 10%;
+  background-color: white;
+  height: 100vh;
+}
+@media screen and (max-width: 1600px) {
+  .hero__section {
+    padding: 8rem 2rem;
+  }
+}

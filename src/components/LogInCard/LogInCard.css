@@ -1,0 +1,138 @@
+.logIn__section {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logIn__section h1 {
+  color: #141414;
+  font-family: var(--font-sora);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+  margin-bottom: 8px;
+}
+
+.logIn__section p {
+  color: #434343;
+  text-align: center;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  letter-spacing: 0.14px;
+  margin-bottom: 32px;
+}
+
+.logIn__section p span {
+  color: #434343;
+  font-family: var(--font-sora);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.14px;
+}
+
+.social {
+  border-radius: 12px;
+  border: 1px solid #141414;
+  width: 475px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem 0;
+  margin-bottom: 30px;
+}
+
+.social p {
+  margin-bottom: -0.2rem;
+  color: #141414;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+
+  line-height: 150%;
+  letter-spacing: 0.16px;
+}
+
+.social:hover {
+  background-color: var(--color-blue);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social:hover p {
+  color: white;
+}
+
+.or__line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.or__line p {
+  color: #969393;
+}
+
+.line__logIn {
+  width: 200px;
+  height: 1px;
+  background-color: #d3caca;
+  margin-top: -2rem;
+}
+
+.logIn__form {
+  display: flex;
+  flex-direction: column;
+  width: 475px;
+  margin-left: 2rem;
+}
+
+.logIn__form p {
+  font-size: 16px;
+  font-family: var(--font-sora);
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.logIn__form input {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: 0.5px solid #141414;
+  outline: none;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.logIn__form button {
+  margin-top: 1rem;
+  outline: none;
+  border: 2px solid var(--color-blue);
+  border-radius: 10px;
+  height: 50px;
+  font-size: 17px;
+  font-family: var(--font-sora);
+  color: white;
+  background-color: var(--color-blue);
+}
+
+.logIn__form button:hover {
+  cursor: pointer;
+  background-color: white;
+  transition: 0.4s;
+  color: #141414;
+}
