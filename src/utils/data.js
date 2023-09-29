@@ -22,3 +22,27 @@ export const featureData = [
       "Access and review your past content effortlessly. Your recordings, always at your fingertips.",
   },
 ];
+
+export const howItWorksData = [
+  {
+    id: 1,
+    icon: 1,
+    title: "Record Screen",
+    content:
+      'Click the "Start Recording" button in our extension.  choose which part of your screen to capture and who you want to send it to.',
+  },
+  {
+    id: 2,
+    icon: 2,
+    title: "Share Your Recording",
+    content:
+      "We generate a shareable link for your video. Simply send it to your audience via email or copy the link to send via any platform.",
+  },
+  {
+    id: 3,
+    icon: 3,
+    title: "Learn Effortlessly",
+    content:
+      "Recipients can access your video effortlessly through the provided link, with our user-friendly interface suitable for everyone.",
+  },
+];

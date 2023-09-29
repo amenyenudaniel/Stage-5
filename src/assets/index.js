@@ -28,6 +28,7 @@ import video1 from "./video1.svg";
 import whatsapp from "./whatsapp.svg";
 import grid1 from "./grid1.svg";
 import grid2 from "./grid2.svg";
+import works from "./works.svg";
 
 export {
   arrowRight,
@@ -60,4 +61,5 @@ export {
   whatsapp,
   grid1,
   grid2,
+  works,
 };

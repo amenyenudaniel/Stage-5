@@ -3,7 +3,7 @@ import { featureImg } from "../../assets";
 import { featureData } from "../../utils/data";
 const Features = () => {
   return (
-    <section className="feature__section">
+    <section className="feature__section" id="features">
       <h1 className="title1">Features</h1>
       <p className="title2">Key Highlights of Our Extension</p>
 
