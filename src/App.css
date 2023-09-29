@@ -5,7 +5,7 @@
 :root {
   --font-sora: "Sora", sans-serif;
   --font-sans: "Work Sans", sans-serif;
-  --color-red: #ffd7de;
+  --color-red: #f9eff1;
   --color-blue: #120b48;
 }
 
@@ -27,5 +27,5 @@ a {
 }
 
 body {
-  background-color: #ffd7de;
+  background-color: var(--color-red);
 }

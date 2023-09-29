@@ -46,3 +46,35 @@ export const howItWorksData = [
       "Recipients can access your video effortlessly through the provided link, with our user-friendly interface suitable for everyone.",
   },
 ];
+
+export const footerData = [
+  {
+    id: 1,
+    title: "Menu",
+    links: [
+      { id: 1, linkName: "Home" },
+      { id: 2, linkName: "Converter" },
+      { id: 3, linkName: "How It Works" },
+    ],
+  },
+
+  {
+    id: 2,
+    title: "About us",
+    links: [
+      { id: 1, linkName: "About" },
+      { id: 2, linkName: "Contact Us" },
+      { id: 3, linkName: "Privacy Policy" },
+    ],
+  },
+
+  {
+    id: 3,
+    title: "Screen Record",
+    links: [
+      { id: 1, linkName: "Browser Window" },
+      { id: 2, linkName: "Desktop" },
+      { id: 3, linkName: "Application" },
+    ],
+  },
+];

@@ -29,6 +29,7 @@ import whatsapp from "./whatsapp.svg";
 import grid1 from "./grid1.svg";
 import grid2 from "./grid2.svg";
 import works from "./works.svg";
+import google from "./google.svg";
 
 export {
   arrowRight,
@@ -62,4 +63,5 @@ export {
   grid1,
   grid2,
   works,
+  google,
 };

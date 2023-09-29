@@ -3,7 +3,7 @@ import { works } from "../../assets";
 import { howItWorksData } from "../../utils/data";
 const HowItsWorks = () => {
   return (
-    <section className="section__works">
+    <section className="section__works" id="works">
       <h1>How it works</h1>
 
       <div className="works__container">
