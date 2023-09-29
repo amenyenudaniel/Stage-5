@@ -1,0 +1,44 @@
+.videoDetail__section {
+  padding: 0 10%;
+  background-color: white;
+}
+
+.videoDetail__section small {
+  color: rgba(20, 20, 20, 0.7);
+  font-family: var(--font-sans);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.videoDetail__section small span {
+  color: #413c6d;
+  font-family: var(--font-sans);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.edit__box {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-bottom: 2rem;
+}
+
+.edit__box p {
+  color: #141414;
+  font-family: var(--font-sora);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.edit__box img {
+  width: 24px;
+  height: 24px;
+}

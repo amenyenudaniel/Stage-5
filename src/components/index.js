@@ -6,6 +6,7 @@ import Modal from "./Modal/Modal";
 import Navbar from "./Navbar/Navbar";
 import VideoCard from "./VideoCard/VideoCard";
 import LogInCard from "./LogInCard/LogInCard";
+import Nav from "./Nav/Nav";
 
 export {
   Features,
@@ -16,4 +17,5 @@ export {
   Navbar,
   VideoCard,
   LogInCard,
+  Nav,
 };

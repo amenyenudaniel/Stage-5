@@ -30,6 +30,10 @@ import grid1 from "./grid1.svg";
 import grid2 from "./grid2.svg";
 import works from "./works.svg";
 import google from "./google.svg";
+import kite from "./kite.svg";
+import arrowDown from "./arrow-down.svg";
+import profile from "./profile.svg";
+import search from "./search.svg";
 
 export {
   arrowRight,
@@ -64,4 +68,8 @@ export {
   grid2,
   works,
   google,
+  kite,
+  arrowDown,
+  profile,
+  search,
 };

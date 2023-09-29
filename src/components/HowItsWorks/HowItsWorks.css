@@ -39,6 +39,7 @@
   background-color: var(--color-blue);
   border-radius: 100%;
   margin-bottom: 32px;
+  flex-shrink: 0;
 }
 .works__icon p {
   color: white;
