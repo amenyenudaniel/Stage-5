@@ -3,7 +3,7 @@ export const featureData = [
   {
     id: 1,
     icon: circle,
-    title: "Simple Screen Recording",
+    title: "Simple Screen Recordings",
     content:
       "Effortless screen recording for everyone. Record with ease, no tech expertise required.",
   },
