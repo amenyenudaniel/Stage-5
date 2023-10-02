@@ -4,11 +4,16 @@ import { useCopyToClipboard } from "usehooks-ts";
 import "./VideoReady.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 const VideoReady = () => {
   const [value, copyValue] = useCopyToClipboard();
   const [linkValue, setLinkValue] = useState("");
   const [showModal, setShowModal] = useState(false);
   const [email, setEmail] = useState("");
+
+  useEffect(() => {
+const fetch(`https://druth-video-api.onrender.com/get_video/${link}`)
+  }, [])
   return (
     <div
       style={{
@@ -75,7 +80,9 @@ const VideoReady = () => {
             </div>
           </div>
         </div>
-        <div className="videoReady__video"></div>
+        <div className="videoReady__video">
+
+        </div>
       </div>
       <div className="save__container">
         <p>
